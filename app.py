@@ -2055,7 +2055,7 @@ def _get_region_url(region):
     region = region.upper()
     if region == "IND": return "https://client.ind.freefiremobile.com"
     if region in ["BR","US","NA"]: return "https://client.us.freefiremobile.com"
-    return "https://clientbp.ggpolarbear.com"
+    return "https://clientbp.ppmainecoonghj.com"
 
 def _create_clan_payload(clan_id):
     if not _CLAN_PB_AVAILABLE: return None
